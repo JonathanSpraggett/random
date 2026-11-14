@@ -10,4 +10,3 @@
 //     std::cout << std::boolalpha << checkStraightLine2(coordinates) << "\n";
 // }
 
-
