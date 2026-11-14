@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jonathan/ros2_ws/install/ros_gz_sim/include/**",
+        "/home/jonathan/ros2_ws/install/ros_gz_bridge/include/**",
+        "/home/jonathan/ros2_ws/install/ros_gz_interfaces/include/**",
+        "/home/jonathan/ros2_ws/install/px4_msgs/include/**",
+        "/home/jonathan/ros2_ws/install/mostavio_pure_pursuit_algorithm/include/**",
+        "/home/jonathan/ros2_ws/install/image_geometry/include/**",
+        "/home/jonathan/ros2_ws/install/evtol_interfaces/include/**",
+        "/home/jonathan/ros2_ws/install/cv_bridge/include/**",
+        "/opt/ros/humble/include/**",
+        "${workspaceFolder}/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "c++17",
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}
